@@ -7,9 +7,9 @@ from flask import Flask, request, jsonify, Response
 
 app = Flask(__name__)
 port = int(os.environ.get('PORT', 3000))
-surveyId = "<survey_id>"
-apiToken = '<qualtrics api token>'
-dataCenter = '<qualtrics datacenter>'
+surveyId = "<SV_b1tGz1OB0zn9mOV>"
+apiToken = '<o3xMv8hzFF2CR6CgcnWmMRJtWhC4M67MJ2CopPxU>'
+dataCenter = '<fra1>'
 
 def resetMemory(memory):
     del memory['startSurvey']
